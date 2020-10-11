@@ -14,7 +14,9 @@
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
-		"eject": "react-scripts eject"
+		"eject": "react-scripts eject",
+		"predeploy": "npm run build && echo evyatar.tk > build/CNAME",
+		"deploy": "gh-pages -d build -r https://github.com/StyleShit/StyleShit.github.io -b main"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
@@ -31,5 +33,8 @@
 			"last 1 safari version"
 		]
 	},
-	"homepage": "."
+	"homepage": ".",
+	"devDependencies": {
+		"gh-pages": "^3.1.0"
+	}
 }
