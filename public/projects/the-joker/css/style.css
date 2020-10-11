@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+
+*
+{
+    box-sizing: border-box;
+}
+
+html, body
+{
+    min-height: 100%;
+    min-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    /* background-image: linear-gradient( 135deg, #3d1c1c 15%, #6d1b1b ); */
+    background: linear-gradient( 135deg, rgba(31, 31, 31, 0.8) 15%, rgba(85, 80, 80, 0.8) ), 
+                url( '../img/bg-3.jpg' );
+    background-size: 150%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container
+{
+    width: 70vw;
+    height: 75vh;
+    min-height: 480px;
+    min-width: 900px;
+    box-shadow: 0 0 20px 1px rgba( 0,0,0,0.5 );
+    border-radius: 20px;
+    background-color: #000;
+    background-image: url( '../img/bg-3.jpg' );
+    background-position: 25vw center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFF;
+    font-family: Montserrat;
+    padding: 30px;
+    font-size: 2.7vh;
+}
+
+.navigation .nav-link
+{
+    display: inline-block;
+    text-decoration: none;
+    color: rgba( 255,255,255,0.5 );
+    padding: 5px 10px;
+    margin-right: 2.5em;
+    font-weight: 100;
+    font-size: 0.8em;
+    transition: 0.3s all;
+}
+
+.nav-link:hover
+{
+    color: #FFF;
+}
+
+.row
+{
+    position: relative;
+}
+
+.row::after
+{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.column-left, .column-right
+{
+    float: left;
+    width: 35%;
+    padding: 2em 0.8em;
+    margin-right: 3%;
+}
+
+.movie-title
+{
+    font-size: 6vmax;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.movie-description
+{
+    font-size: 0.7em;
+    color: rgba( 255,255,255,0.7 );
+    line-height: 2;
+    font-weight: 100;
+    margin-bottom: 2.2em;
+}
+
+.order-container
+{
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ticket-price
+{
+    font-weight: bold;
+    font-size: 2.5rem;
+    display: block;
+}
+
+.pre-order-btn
+{
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    float: right;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    padding: 0.7em 1.2em;
+    border: 2px solid #FFF;
+    transition: 0.3s all;
+}
+
+.pre-order-btn:hover
+{
+    color: #000;
+    background-color: #FFF;
+}
+
+.movie-release-date-container
+{
+    padding: 1.4em 0;
+    height: 6.2em;
+    width: 6.2em;
+    border: 1.5px solid #580a17;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.movie-release-date 
+{
+    font-size: 0.8em;
+    display: block;
+}
+
+.movie-release-year
+{
+    font-size: 2.1em;
+}
+
+.movie-trailer-title
+{
+    text-transform: uppercase;
+    font-size: 1.7em;
+    margin: 40px 0 20px;
+    text-shadow: 0 0 2px rgba( 0,0,0,0.5 ), 
+                 0 0 5px rgba( 0,0,0,0.8 ),
+                 0 0 10px rgba( 0,0,0,0.8 );
+}
+
+.movie-trailer-thumbnail
+{
+    max-width: 80%;
+    box-shadow: 0 0 5px 2px rgba( 0,0,0,0.5 );
+}

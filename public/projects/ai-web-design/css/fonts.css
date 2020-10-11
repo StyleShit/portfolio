@@ -1,0 +1,47 @@
+/**
+ *  Custom futuristic fonts
+ */
+
+
+/* Anurati */
+@font-face 
+{
+  font-family: 'Anurati';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url( ../fonts/anurati/Anurati-Regular.otf ) format( 'opentype' );
+}
+
+/* beyno */
+@font-face 
+{
+  font-family: 'Beyno';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url( ../fonts/beyno/BEYNO.otf ) format( 'opentype' ),
+       url( ../fonts/beyno/BEYNO.ttf ) format( 'truetype' );
+}
+
+/* Blanka */
+@font-face 
+{
+  font-family: 'Blanka';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url( ../fonts/blanka/Blanka-Regular.otf ) format( 'opentype' ),
+       url( ../fonts/blanka/Blanka-Regular.ttf ) format( 'truetype' );
+}
+
+/* Elianto */
+@font-face 
+{
+  font-family: 'Elianto';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url( ../fonts/elianto/Elianto-Regular.otf ) format( 'opentype' ),
+       url( ../fonts/elianto/Elianto-Regular.ttf ) format( 'truetype' );
+}

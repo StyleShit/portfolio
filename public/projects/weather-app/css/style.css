@@ -1,0 +1,247 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400';
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+    font-family: Open Sans;
+}
+
+.background-image
+{
+    display: block;
+    position: absolute;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    filter: blur(30px);
+}
+
+.container
+{
+    height: 80vh;
+    margin: 10vh auto;
+    width: 90vw;
+    font-family: Open Sans;
+    background: rgba(255,255,255,0.2);
+}
+
+.container .top
+{
+    width: 100%;
+    height: calc(100% - 200px);
+    background-image: url('../img/bg.jpg');
+    background-size: 100% auto;
+    background-position: center center;
+    padding: 30px;
+    box-shadow: 0 0 200px 0 rgba(0,0,0,1) inset;
+    position: relative;
+}
+
+.container .top .header
+{
+    color: #FFF;
+    font-weight: 300;
+    letter-spacing: -4px;
+    text-shadow: 0px 0px 5px #444;
+    font-size: 40px;
+}
+
+.container .top .header i
+{
+    position: relative;
+    display: inline-block;
+    height: 40px;
+    background: #FFF;
+    width: 2px;
+    margin-bottom: -7px;
+    margin-left: 4px;
+}
+
+.container .top .header span
+{
+    color: #59c;
+}
+
+.container .top .location
+{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    text-align: right;
+    color: #FFF;
+}
+
+.container .top .latest-locations
+{
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    background: #2ecc52;
+    color: #FFF;
+    border-radius: 20px 0 0 20px;
+    padding: 7px 40px 7px 20px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.container .top .latest-locations a
+{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.container .top .latest-locations:hover
+{
+    background: #27b948;
+}
+
+.container .top .location span
+{
+    font-size: 50px;
+}
+
+.container .top .buttons
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.container .top .buttons a
+{
+    color: #AAA;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-bottom: 5px solid;
+    text-transform: uppercase;
+    font-family: Open Sans;
+    font-size: 14px;
+    margin-right: -4px;
+    transition: 0.3s all;
+}
+
+.container .top .buttons a span
+{
+    font-size: 18px;
+}
+
+.container .top .buttons a:hover, .container .top .buttons a.active
+{
+    color: #FFF;
+    border-color: #FFF;
+/*    transform: translateY(-5px);*/
+}
+
+.container .top .buttons a:first-child
+{
+    border-color: #FB2;
+}
+
+.container .top .buttons a:nth-child(2)
+{
+    border-color: #86F;
+}
+
+.container .top .buttons a:nth-child(3)
+{
+    border-color: #2cf;
+}
+
+.container .bottom
+{
+    padding: 30px 70px;
+    color: #FFF;
+    position: relative;
+    height: 200px;
+}
+
+.container .bottom > div
+{
+    display: inline-block;
+}
+
+.container .bottom .current-weather
+{
+    font-size: 85px;
+    color: #FFF;
+    text-shadow: 0px 0px 2px #444;
+}
+
+.container .bottom .current-weather span
+{
+    font-size: 13px;
+    background: rgba(0,0,0,0.2);
+    padding: 2px 10px;
+    border-radius: 20px;
+}
+
+.container .bottom .clouds-and-wind
+{
+    text-align: center;
+}
+
+.container .bottom .clouds-and-wind .cloud
+{
+    font-size: 100px;
+}
+
+.container .bottom .clouds-and-wind .wind i:after
+{
+    content: '/';
+    display: inline-block;
+    color: #AAA;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.container .bottom .days
+{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+.container .bottom .days .day
+{
+    float: left;
+    border-left: 0.5px solid rgba(0,0,0,0.2);
+    padding: 5px 30px;
+    text-align: center;
+}
+
+.container .bottom .days .day > div:not(last-child)
+{
+    margin-bottom: 25px;
+}
+
+.container .bottom .days .day .title
+{
+    font-size: 13px;
+    background: rgba(0,0,0,0.2);
+    padding: 2px 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.container .bottom .days .day .weather
+{
+    font-size: 40px;
+}
+
+.icon-rain
+{
+    color: #4fb4ff;
+}
+
+.icon-sun
+{
+    color: #FB2;
+    text-shadow: 0px 0px 2px #999;
+}

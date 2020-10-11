@@ -1,0 +1,110 @@
+body
+{
+    background-image: linear-gradient(to right, rgb(78, 84, 200), rgb(143, 148, 251));
+    background-size: 100% 100%;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.robot
+{
+    margin: 0 auto;
+    height: 30em;
+    width: 20em;
+    font-size: 15px;
+    background:
+        radial-gradient( circle at center, #F00 0%, #f00 3%, #FFF 3%, #FFF 6%, #000 6%, #000 10%, #ffeb00 10%, #ffeb00 15%, #000 15%, #000 20%, transparent 20% ) 50% 1% / 25% 25% 
+        /* Eye */,
+        
+        linear-gradient( 180deg, #444 0%, #444 85%, #ffeb00 85%, #ffeb00 93%, #444 93% ) 50% 11% / 25% 10% 
+        /* Head bottom */,
+        
+        radial-gradient( 100% 100% at bottom, #444 0%, #444 50%, transparent 51% ) 50% 1% / 25% 10% 
+        /* Head top */,
+        
+        radial-gradient( circle at center, #000 7%, #ffeb00 7%, #ffeb00 13%, #000 13%, #000 20%, transparent 20% ) 35% 35% / 15% 15%
+        /* Button 1st on body */,
+        
+        radial-gradient( circle at center, #000 7%, #ffeb00 7%, #ffeb00 13%, #000 13%, #000 20%, transparent 20% ) 50% 35% / 15% 15%
+        /* Button 2nd on body */,
+        
+        radial-gradient( circle at center, #000 7%, #ffeb00 7%, #ffeb00 13%, #000 13%, #000 20%, transparent 20% ) 65% 35% / 15% 15%
+        /* Button 3rd on body */,
+        
+        radial-gradient( circle at center, transparent 15%, #222 15%, #222 25%, transparent 25% ) 52% 52% / 8% 8%
+        /* Black button on body rectangle */,
+        
+        radial-gradient( circle at center, #ffeb00 20%, transparent 20% ) 52% 56% / 8% 8%
+        /* Yellow button on body rectangle */,
+        
+        repeating-linear-gradient( 90deg, #222 0%, #222 15%, transparent 15%, transparent 25% ) 62% 52% / 8% 5%
+        /* Bars on body rectangle */,
+        
+        linear-gradient( 0deg, #333 5%, transparent 5%, transparent 95%, #333 95% ) 60% 55% / 20% 10%
+        /* Body rectangle top & bottom borders */,
+        
+        linear-gradient( 90deg, #333 5%, transparent 5%, transparent 95%, #333 95% ) 60% 55% / 20% 10%
+        /* Body rectangle left & right borders */,
+        
+        linear-gradient( 0deg, #444, #444 ) 50% 55% / 50% 30% 
+        /* Body */,
+        
+        radial-gradient( 120% 100% at bottom, #444 0%, #444 50%, transparent 51% ) 50% 15% / 50% 30% 
+        /* Body-top */,
+        
+        linear-gradient( 180deg, #000 0%, #000 45%, #ffeb00 45%, #ffeb00 55%, #000 55% ) 50% 21% / 12% 6% 
+        /* Neck */,
+        
+        radial-gradient( 100% 120% at left, #ffeb00 0%, #ffeb00 50%, transparent 51% ) 80% 40% / 7% 18% 
+        /* Right-arm connector */,
+        
+        radial-gradient( 100% 120% at right, #ffeb00 0%, #ffeb00 50%, transparent 51% ) 20% 40% / 7% 18% 
+        /* Left-arm connector */,
+        
+        linear-gradient( 90deg, #000, #000 ) 21% 40% / 5% 14% 
+        /* Left-arm handler */,
+        
+        linear-gradient( 90deg, #000, #000 ) 79% 40% / 5% 14% 
+        /* Right-arm handler */,
+        
+        linear-gradient( -45deg, #444 0%, #444 30%, #ffeb00 30%, #ffeb00 35%, #000 35%, #000 40%, #ffeb00 40%, #ffeb00 45%, #444 45%, #444 90%, transparent 90% ) 11% 42% / 10% 30%
+        /* Left-arm */,
+        
+        linear-gradient( 45deg, #444 0%, #444 30%, #ffeb00 30%, #ffeb00 35%, #000 35%, #000 40%, #ffeb00 40%, #ffeb00 45%, #444 45%, #444 90%, transparent 90% ) 89% 42% / 10% 30%
+        /* Right-arm */,
+        
+        radial-gradient( circle at center, transparent 0%, transparent 15%, #000 15%, #000 25%, #ffeb00 25%, #ffeb00 35%, #000 35%, #000 50%, transparent 50% ) 11% 64% / 10% 10%
+        /* Left-arm axis */,
+        
+        radial-gradient( circle at center, transparent 0%, transparent 15%, #000 15%, #000 25%, #ffeb00 25%, #ffeb00 35%, #000 35%, #000 50%, transparent 50% ) 89% 64% / 10% 10%
+        /* Right-arm axis */,
+        
+        radial-gradient( 100% 200% at top, #444 0%, #444 50%, transparent 50% ) 11% 69.4% / 10% 5%
+        /* Left-hand */,
+        
+        radial-gradient( 100% 200% at top, #444 0%, #444 50%, transparent 50% ) 89% 69.4% / 10% 5%
+        /* Right-hand */,
+        
+        linear-gradient( 90deg, #000 0%, #000 15%, transparent 15%, transparent 85%, #000 85% ) 11.5% 73% / 9% 7%
+        /* Left-hand short-fingers */,
+        
+        linear-gradient( 180deg, #000 0%, #000 70%, #ffeb00 70%, #ffeb00 75%, #000 75%, #000 80%, #ffeb00 80%, #ffeb00 85%, #000 85% ) 14% 74% / 1.5% 10%
+        /* Left-hand long-finger */,
+        
+        linear-gradient( 90deg, #000 0%, #000 15%, transparent 15%, transparent 85%, #000 85% ) 88.5% 73% / 9% 7%
+        /* Right-hand short-fingers */,
+        
+        linear-gradient( 180deg, #000 0%, #000 70%, #ffeb00 70%, #ffeb00 75%, #000 75%, #000 80%, #ffeb00 80%, #ffeb00 85%, #000 85% ) 86% 74% / 1.5% 10%
+        /* Right-hand long-finger */,
+        
+        linear-gradient( 90deg, #000 3%, #ffeb00 3%, #ffeb00 5%, #444 5%, #444 35%, transparent 35%, transparent 65%, #444 65%, #444 95%, #ffeb00 95%, #ffeb00, 97%, #000 97% ) 50% 95% / 60% 7%
+        /* Foots */,
+        
+        linear-gradient( 90deg, transparent 5%, #000 5%, #000 30%, transparent 30%, transparent 70%, #000 70%, #000 95%, transparent 95% ) 50% 90% / 50% 25%
+        /* Legs */;
+    
+    background-repeat: no-repeat !important;
+    filter: drop-shadow( 0 0 10px rgba( 0,0,0,0.5 ) );
+}
