@@ -29,11 +29,19 @@ export default function Modal({ project, isModalOpen, dispatch })
                         dangerouslySetInnerHTML={{ __html: project.description }}>
                     </p>
 
-                    { project.link != null &&
-                        <a className="btn modal-btn" href={ link } target="_blank" rel="noopener noreferrer">
-                            View Code
-                        </a>
-                    }
+                    <div className="modal-buttons-container">
+                        { project.link != null &&
+                            <a className="btn modal-btn" href={ link } target="_blank" rel="noopener noreferrer">
+                                <i className="las la-eye"></i>&nbsp;Preview
+                            </a>
+                        }
+
+                        { project.github != null &&
+                            <a className="btn modal-btn" href={ project.github } target="_blank" rel="noopener noreferrer">
+                                <i className="lab la-github"></i>&nbsp;Github 
+                            </a>
+                        }
+                    </div>
                 </div>
 
                 <span className="modal-close-btn" onClick={ () => { dispatch({ action: 'close-modal'}) } }></span>
