@@ -57,12 +57,42 @@ const projects = [
     },
 
     {
+        title: 'Codepen Clone',
+        image: 'img/thumbnails/codepen-clone.png',
+        link: 'projects/codepen-clone',
+        github: 'https://github.com/StyleShit/Codepen-Clone',
+        description: `A small clone of Codepen's basic functionality, using React and <a target="_blank" href="https://codemirror.net/">CodeMirror</a>.`
+    },
+
+    {
         title: 'DailyUI Signup',
         image: 'img/thumbnails/flat-signup.jpg',
         link: 'projects/flat-signup',
         description: `A signup form designed for the DailyUI 100 Days Challenge.<br />
             Inspired from this Dribbble shot by Paul Aimé : <br /><br />
             <a target="_blank" href="https://dribbble.com/shots/2468662-Daily-UI-001-Sign-Up-Form/">https://dribbble.com/shots/2468662-Daily-UI-001-Sign-Up-Form/</a>
+            <br /><br />`
+    },
+    
+    {
+        title: 'React Weather',
+        image: 'img/thumbnails/react-weather-app.webp',
+        link: 'projects/react-weather',
+        github: 'https://github.com/StyleShit/Weather-Around-The-World',
+        description: `A small React project that uses <a target="__blank" href="https://openweathermap.org/api">OpenWeather's API</a> to show live weather in places around the world.<br />
+            Inspired from this Dribbble shot by kenzch: <br /><br />
+            <a target="_blank" href="https://dribbble.com/shots/7112686-Weather-kit">https://dribbble.com/shots/7112686-Weather-kit</a>
+            <br /><br />`
+    },
+
+    {
+        title: 'Navigation Animations',
+        image: 'img/thumbnails/navigation-animation.jpg',
+        codepen: 'https://codepen.io/EvyatarDa/full/waKXMd/',
+        description: `A bunch of inspiring navigation menu hover animations.<br />
+            It held the 74th place at Codepen's 
+            "<a target="_blank" href="https://codepen.io/2015/popular/pens/3/">Most Hearted of 2015</a>" 
+            and still gains a lot of views & likes until this day.
             <br /><br />`
     },
 
@@ -74,15 +104,15 @@ const projects = [
         You can set count, keywords and some other parameters, as well as API credentials, and the plugin will download the images for you.<br>
         Simple as clicking a button.`
     },
-    
+
     {
-        title: 'Navigation Animations',
-        image: 'img/thumbnails/navigation-animation.jpg',
-        codepen: 'https://codepen.io/EvyatarDa/full/waKXMd/',
-        description: `A bunch of inspiring navigation menu hover animations.<br />
-            It held the 74th place at Codepen's 
-            "<a target="_blank" href="https://codepen.io/2015/popular/pens/3/">Most Hearted of 2015</a>" 
-            and still gains a lot of views & likes until this day.
+        title: 'Client for Reddit',
+        image: 'img/thumbnails/reddit-client.png',
+        link: 'projects/reddit-client',
+        github: 'https://github.com/StyleShit/Basic-Client-For-Reddit',
+        description: `A small basic client for Reddit with a new design, created using React.<br />
+            Inspired from this Dribbble shot by Dmitriy Kharaberyush: <br /><br />
+            <a target="_blank" href="https://dribbble.com/shots/3257279-Reddit-Trainy">https://dribbble.com/shots/3257279-Reddit-Trainy</a>
             <br /><br />`
     },
 
@@ -115,19 +145,6 @@ const projects = [
             <a target="_blank" href="https://dribbble.com/shots/1187493-Log-in-GIF-animation">https://dribbble.com/shots/1187493-Log-in-GIF-animation</a>
             <br /><br />`
     }
-]
+];
 
-export default projects
-
-/** 
-
-
-{
-    title: 'Coinalyzer',
-    image: 'aasdasd',
-    mockup: 'asdasdasd',
-    link: 'asdasdsad',
-    description: `asdasdsad`
-}
-
-*/
+export default projects;
