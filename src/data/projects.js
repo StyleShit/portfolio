@@ -61,7 +61,8 @@ const projects = [
         image: 'img/thumbnails/codepen-clone.png',
         link: 'projects/codepen-clone',
         github: 'https://github.com/StyleShit/Codepen-Clone',
-        description: `A small clone of Codepen's basic functionality, using React and <a target="_blank" href="https://codemirror.net/">CodeMirror</a>.`
+        description: `A small clone of Codepen's basic functionality, using React and <a target="_blank" href="https://codemirror.net/">CodeMirror</a>.
+            <br /><br />`
     },
 
     {
