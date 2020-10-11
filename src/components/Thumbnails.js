@@ -14,7 +14,7 @@ export default function Thumbnails({ projects, dispatch, limit })
         <div className="thumbnails-container">
 
             {
-                showcase.map( ( p, i) => {
+                showcase.map(( p, i ) => {
                     
                     return(
                         <div className="thumbnail" key={ `thumb-${ i }` } 
@@ -23,7 +23,6 @@ export default function Thumbnails({ projects, dispatch, limit })
                                 { p.title }
                             </h4>
                             <div className="thumbnail-img">
-                                {/* <img alt={ p.title } src={ process.env.PUBLIC_URL + '/' + p.image } /> */}
                                 <img alt={ p.title } src={ p.image } />
                             </div>
                         </div>

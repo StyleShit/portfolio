@@ -14,17 +14,8 @@ export default function Hero({ title, subtitle })
                 <h1 className="hero-title slide-in-from-top">
                     { title },
                 </h1>
-                <div className="hero-description slide-in-from-left">
-                    { 
-                        subtitle.split( '\n' ).map( l => {
-                            return (
-                                <>
-                                { l } <br />
-                                </>
-                            )
-                        })
-                    }
-                </div>
+                
+                <div className="hero-description slide-in-from-left" dangerouslySetInnerHTML={{ __html: subtitle }}></div>
 
                 <div className="hero-buttons-container">
                     <a href="#my-projects" className="hero-btn hero-btn-primary scroll-to slide-in-from-bottom">My Projects</a>
@@ -33,7 +24,6 @@ export default function Hero({ title, subtitle })
             </div>
 
             <div className="hero-floating-image slide-in-from-right">
-                {/* <img src={ process.env.PUBLIC_URL + '/img/hero.png' } alt="hero" /> */}
                 <img src='img/hero.webp' alt="hero" />
             </div>
         
