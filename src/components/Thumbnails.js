@@ -33,7 +33,7 @@ export default function Thumbnails({ projects, dispatch, limit })
 
             {
                 showMore &&
-                    <div className="show-more-btn-container">
+                    <div className="show-more-btn-container" key={ new Date().getTime() }>
                         <button className="btn show-more-btn" onClick={ () => { dispatch({ action: 'show-more' }) } }>
                             Show More
                         </button>
