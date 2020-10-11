@@ -498,11 +498,34 @@ html.modal-open, html.modal-open body
 {
     font-size: 1vmax;
     text-align: center;
-    margin-top: -8em;
     background-color: var( --secondary-color );
-    padding: 3em 0;
+    padding: 0 0 3em 0;
     color: #FFF;
-    clip-path: polygon( 0 30%, 50% 0, 100% 30%, 100% 100%, 0 100%);
+    position: relative;
+}
+
+.footer::before
+{
+    content: '';
+    display: block;
+    position: absolute;
+    background: inherit;
+    width: 100%;
+    height: 6em;
+    left: 0;
+    bottom: 100%;
+    margin-bottom: -1px;
+    clip-path: polygon(0 100%,50% 0,100% 100%,100% 100%,0 100%);
+}
+
+.footer-avatar
+{
+    width: 10em;
+    position: absolute;
+    bottom: 100%;
+    margin-bottom: 1em;
+    left: 50%;
+    margin-left: -5em;
 }
 
 .footer-title
@@ -904,7 +927,6 @@ html.modal-open, html.modal-open body
     .footer
     {
         font-size: 1.5vmax;
-        clip-path: polygon( 0 10%, 50% 0, 100% 10%, 100% 100%, 0 100%);
     }
 }
 

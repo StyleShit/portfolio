@@ -4,6 +4,9 @@ export default function Footer() {
     return (
         <>
         <div className="footer" id="contact-me">
+
+            <img className="footer-avatar" alt="avatar" src='img/avatar.svg'/>
+            
             <h2 className="footer-title">
                 Contact Me
             </h2>
