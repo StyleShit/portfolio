@@ -37,6 +37,12 @@ export default function Modal({ project, isModalOpen, dispatch })
                                 <i className="lab la-github"></i>&nbsp;Github 
                             </a>
                         }
+
+                        { project.codepen != null &&
+                            <a className="btn modal-btn" href={ project.codepen } target="_blank" rel="noopener noreferrer">
+                                <i className="lab la-codepen"></i>&nbsp;Codepen 
+                            </a>
+                        }
                     </div>
                 </div>
 

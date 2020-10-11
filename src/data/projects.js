@@ -78,7 +78,7 @@ const projects = [
     {
         title: 'Navigation Animations',
         image: 'img/thumbnails/navigation-animation.jpg',
-        link: 'https://codepen.io/EvyatarDa/full/waKXMd/',
+        codepen: 'https://codepen.io/EvyatarDa/full/waKXMd/',
         description: `A bunch of inspiring navigation menu hover animations.<br />
             It held the 74th place at Codepen's 
             "<a target="_blank" href="https://codepen.io/2015/popular/pens/3/">Most Hearted of 2015</a>" 
