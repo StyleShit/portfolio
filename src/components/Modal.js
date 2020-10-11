@@ -4,10 +4,6 @@ export default function Modal({ project, isModalOpen, dispatch })
 {
 
     var imageURL = project.modalImage ? project.modalImage : project.image;
-    // imageURL = process.env.PUBLIC_URL + '/' + imageURL;
-    
-    var link = ( project.link != null ) ? project.link : '';
-    // link += ( project.external ) ? '' : process.env.PUBLIC_URL + '/';
 
     return (
         <>
@@ -31,7 +27,7 @@ export default function Modal({ project, isModalOpen, dispatch })
 
                     <div className="modal-buttons-container">
                         { project.link != null &&
-                            <a className="btn modal-btn" href={ link } target="_blank" rel="noopener noreferrer">
+                            <a className="btn modal-btn" href={ project.link } target="_blank" rel="noopener noreferrer">
                                 <i className="las la-eye"></i>&nbsp;Preview
                             </a>
                         }
