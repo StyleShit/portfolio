@@ -18,8 +18,10 @@ body
     /* background-image: linear-gradient( 135deg, #3d1c1c 15%, #6d1b1b ); */
     background: linear-gradient( 135deg, rgba(31, 31, 31, 0.8) 15%, rgba(85, 80, 80, 0.8) ), 
                 url( '../img/bg-3.jpg' );
-    background-size: 150%;
-    height: 100vh;
+    background-size: 150% cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -167,4 +169,103 @@ body
 {
     max-width: 80%;
     box-shadow: 0 0 5px 2px rgba( 0,0,0,0.5 );
+}
+
+
+@media screen and ( max-width: 1600px )
+{
+    .container
+    {
+        width: 90vw;
+        height: 80vh;
+        min-height: auto;
+        min-width: auto;
+    }
+}
+
+@media screen and ( max-width: 1100px )
+{
+    .navigation
+    {
+        padding-top: 20px;
+    }
+
+    .navigation .nav-link
+    {
+        color: #FFF;
+        font-weight: normal;
+        margin: 0;
+    }
+
+    .container
+    {
+        height: auto;
+        margin: 10vh auto;
+        background-position: 0 0;
+        background-image: linear-gradient( -135deg, rgba(15, 32, 39, .7), rgba(32, 58, 67, .7), rgba(44, 83, 100, .7)),
+                            url( '../img/bg-3.jpg' );
+    }
+
+    .navigation
+    {
+        text-align: center;
+    }
+
+    .column-left, .column-right
+    {
+        float: none;
+        width: auto;
+        padding: 100px 50px 0;
+        margin: auto;
+    }
+
+    .column-right
+    {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .movie-description
+    {
+        color: #FFF;
+        font-weight: normal;
+        text-shadow: 0 0 0 #FFF, 0 0 5px #000, 0 0 15px #000;
+    }
+
+    .order-container
+    {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .ticket-price
+    {
+        font-size: 2em;
+    }
+
+    .pre-order-btn
+    {
+        font-size: 1.2em;
+        float: none;
+        margin: 30px;
+    }
+
+    .movie-release-date-container
+    {
+        margin: auto;
+        border-width: 3px;
+    }
+}
+
+@media screen and ( max-width: 600px )
+{
+    .container
+    {
+        background-position: 15%;
+    }
+
+    .column-left, .column-right
+    {
+        padding: 100px 20px 0;    
+    }
 }
