@@ -6,12 +6,12 @@ const projects = [
         title: 'Coinalyzer',
         image: 'img/thumbnails/coinalyzer.png',
         mockup: 'img/mockup-right-2.png',
-        description: `An awesome and special Crypto Coins analyzing tool for the company's internal use. <br />
+        description: `An awesome and special Crypto Coins analyzing tool for the internal use. <br />
         It grabs a lot of data about each coin which exists in <a target="_blank" href="https://coinmarketcap.com/">Coin Market Cap</a>,
         from various APIs, including price history & other details, that combined toghether can tell you whether to invest in that coin or not. <br />
-        The success rates are pretty good, and we've already gain a huge profit. <br />
+        The success rates are pretty good, and we've already gain a high profit. <br />
         As can be seen in the screenshot, there is a really nice and friendly graph for each coin, which helps you deciding which coin is the best investment for you. <br />
-        In addition, this tool integrates with Bitfinex's and Cryptopia's APIs, and runs Node.js exchange-bots which can sell or buy coins for you in the highest available profit.`
+        In addition, this tool integrates with Bitfinex & Cryptopia APIs, and runs Node.js exchange-bots which can sell or buy coins for you in the highest available profit.`
     },
 
     {
