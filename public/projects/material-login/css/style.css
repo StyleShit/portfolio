@@ -9,7 +9,8 @@ body
 {
     background: linear-gradient(to right, rgba(78, 84, 200, 0.3), rgba(143, 148, 251, 0.3)),
                 url('../img/bg3.jpg') no-repeat center center;
-/*    background-size: cover;*/
+    background-size: cover;
+    background-attachment: fixed;
     color: #FFF;
     font-family: Montserrat;
     font-weight: 300;
