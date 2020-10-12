@@ -35,6 +35,10 @@ export default function Footer() {
                      {/* Github */}
                     {/* <!-- StyleShit --> */}
                 </a>
+
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/evyatar-daud-404738152/">
+                    <i className="lab la-linkedin-in"></i>
+                </a>
                 
                 <a target="_blank" rel="noopener noreferrer" href="mailto:evyatar.daud@gmail.com">
                     <i className="las la-envelope"></i>
