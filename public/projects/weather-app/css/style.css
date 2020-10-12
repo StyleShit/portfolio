@@ -9,12 +9,16 @@ body
 {
     margin: 0;
     font-family: Open Sans;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 .background-image
 {
     display: block;
-    position: absolute;
+    position: fixed;
     z-index: -1;
     height: 100vh;
     width: 100vw;
@@ -25,8 +29,10 @@ body
 .container
 {
     height: 80vh;
+    max-height: 800px;
     margin: 10vh auto;
     width: 90vw;
+    max-width: 1500px;
     font-family: Open Sans;
     background: rgba(255,255,255,0.2);
 }
@@ -36,10 +42,11 @@ body
     width: 100%;
     height: calc(100% - 200px);
     background-image: url('../img/bg.jpg');
-    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center center;
     padding: 30px;
-    box-shadow: 0 0 200px 0 rgba(0,0,0,1) inset;
+    box-shadow: 0 0 100vmax 0 #000 inset;
     position: relative;
 }
 
@@ -65,7 +72,7 @@ body
 
 .container .top .header span
 {
-    color: #59c;
+    color: #39f;
 }
 
 .container .top .location
@@ -111,6 +118,7 @@ body
     position: absolute;
     bottom: 0;
     left: 0;
+    display: flex;
 }
 
 .container .top .buttons a
@@ -156,15 +164,12 @@ body
 
 .container .bottom
 {
-    padding: 30px 70px;
     color: #FFF;
     position: relative;
     height: 200px;
-}
-
-.container .bottom > div
-{
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .container .bottom .current-weather
@@ -172,6 +177,8 @@ body
     font-size: 85px;
     color: #FFF;
     text-shadow: 0px 0px 2px #444;
+    padding-left: 30px;
+    margin-bottom: 30px;
 }
 
 .container .bottom .current-weather span
@@ -203,9 +210,12 @@ body
 
 .container .bottom .days
 {
-    position: absolute;
-    right: 10px;
-    top: 15px;
+    flex-shrink: 0;
+    position: relative;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container .bottom .days .day
@@ -244,4 +254,60 @@ body
 {
     color: #FB2;
     text-shadow: 0px 0px 2px #999;
+}
+
+@media only screen and ( max-width: 1200px )
+{
+    .container
+    {
+        height: auto;
+        max-height: none;
+    }
+
+    .container .top
+    {
+        height: 300px;
+    }
+
+    .container .top .latest-locations
+    {
+        bottom: auto;
+    }
+
+    .container .bottom
+    {
+        padding: 30px 40px;
+        height: auto;
+        justify-content: center;
+    }
+
+    .container .bottom .days
+    {
+        margin: 50px auto 0;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .container .bottom .days .day
+    {
+        padding: 5px 15px;
+        margin-bottom: 15px;
+    }
+
+    .container .bottom .days .day
+    {
+        border-left: 0.5px solid rgba(0,0,0,0.2);
+        border-right: 0.5px solid rgba(0,0,0,0.2);
+    }
+}
+
+
+@media only screen and ( max-width: 500px )
+{
+    .container .top .location, .container .top .latest-locations
+    {
+        display: none;
+    }
 }
