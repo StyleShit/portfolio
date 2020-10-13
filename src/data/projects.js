@@ -19,6 +19,7 @@ const projects = [
         title: 'AI Web Design',
         image: 'img/thumbnails/futuristic-page.jpg',
         mockup: 'img/mockup-left.webp',
+        fallbackMockup: 'img/mockup-left.png',
         link: 'projects/ai-web-design',
         description: `A concept web design of some futuristic AI company.<br />
         Inspired from this Dribbble shot by Howard Chen: <br /><br />
@@ -49,6 +50,7 @@ const projects = [
     {
         title: 'Material Design Login',
         image: 'img/thumbnails/material-login.webp',
+        fallbackImage: 'img/thumbnails/material-login.jpg',
         link: 'projects/material-login',
         description: `A concept design for a login page, based on the material design concepts.<br />
             Inspired from this Dribbble shot by Anton Aheichanka: <br /><br />
@@ -78,6 +80,7 @@ const projects = [
     {
         title: 'React Weather',
         image: 'img/thumbnails/react-weather-app.webp',
+        fallbackImage: 'img/thumbnails/react-weather-app.jpg',
         link: 'projects/react-weather',
         github: 'https://github.com/StyleShit/Weather-Around-The-World',
         description: `A small React project that uses <a target="__blank" href="https://openweathermap.org/api">OpenWeather's API</a> to show live weather in places around the world.<br />
@@ -120,6 +123,7 @@ const projects = [
     {
         title: 'DailyUI Login',
         image: 'img/thumbnails/flat-login.webp',
+        fallbackImage: 'img/thumbnails/flat-login.png',
         link: 'projects/flat-login',
         description: `A login form designed for the DailyUI 100 Days Challenge.<br />
             Inspired from this Dribbble shot by Paul Flavius Nechita: <br /><br />
@@ -130,6 +134,7 @@ const projects = [
     {
         title: 'Single Div Robot',
         image: 'img/thumbnails/robot.webp',
+        fallbackImage: 'img/thumbnails/robot.jpg',
         link: 'projects/robot',
         description: `A robot created using a single div and gradient tricks.<br />
             Inspired from this Codepen by Jon Kantner: <br /><br />
@@ -140,6 +145,7 @@ const projects = [
     {
         title: 'Animated Background Login',
         image: 'img/thumbnails/animated-login.webp',
+        fallbackImage: 'img/thumbnails/animated-login.jpg',
         link: 'projects/animated-login',
         description: `A concept design for a login page with an animated background.<br />
             Inspired from this Dribbble shot by Nest: <br /><br />

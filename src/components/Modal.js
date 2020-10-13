@@ -2,8 +2,15 @@ import React from 'react'
 
 export default function Modal({ project, isModalOpen, dispatch })
 {
+    if( project.title )
+    {
+        // get original image & fallback image URLs
+        var imageURL = project.modalImage ? project.modalImage : project.image;
+        var fallbackImage = project.fallbackImage ? project.fallbackImage : imageURL;
 
-    var imageURL = project.modalImage ? project.modalImage : project.image;
+        // get project image extension
+        var [ imageExtension ] = imageURL.split( '.' ).slice( -1 );
+    }
 
     return (
         <>
@@ -12,7 +19,12 @@ export default function Modal({ project, isModalOpen, dispatch })
             <div className="modal-content">
                 <div className="modal-image">
                     <a href={ imageURL } target="__blank" rel="noopener noreferrer">
-                        <img alt={ project.title } src={ imageURL } />
+
+                        <picture>
+                            <source srcSet={ imageURL } type={ `image/${ imageExtension }` } />
+                            <img alt={ project.title } src={ fallbackImage } />
+                        </picture>
+
                     </a>
                 </div>
     

@@ -16,15 +16,25 @@ export default function Thumbnails({ projects, dispatch, limit })
             {
                 showcase.map(( p, i ) => {
                     
+                    // get fallback image URL & the original image extension
+                    var fallbackImage = p.fallbackImage ? p.fallbackImage : p.image;
+                    var [ imageExtension ] = p.image.split( '.' ).slice( -1 );
+
                     return(
                         <div className="thumbnail" key={ `thumb-${ i }` } 
                             onClick={ () => { dispatch({ action: 'view-project', payload: { project: p }}) } }>
+                            
                             <h4 className="thumbnail-title">
                                 { p.title }
                             </h4>
+
                             <div className="thumbnail-img">
-                                <img alt={ p.title } src={ p.image } />
+                                <picture>
+                                    <source srcSet={ p.image } type={ `image/${ imageExtension }` } />
+                                    <img alt={ p.title } src={ fallbackImage } />
+                                </picture>
                             </div>
+                            
                         </div>
                     )
 

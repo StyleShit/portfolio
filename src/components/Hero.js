@@ -24,7 +24,10 @@ export default function Hero({ title, subtitle })
             </div>
 
             <div className="hero-floating-image slide-in-from-right">
-                <img src='img/hero.webp' alt="hero" />
+                <picture>
+                    <source srcSet="img/hero.webp" type="image/webp" />
+                    <img src='img/hero.png' alt="hero" />
+                </picture>
             </div>
         
         </div>
