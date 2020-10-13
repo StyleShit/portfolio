@@ -603,10 +603,27 @@ html.modal-open, html.modal-open body
     display: inline-block;
     vertical-align: middle;
     /* margin-right: 5px;
-    margin-top: -.1em; */
+    margin-top: -.1em;
     text-shadow: 0 0 5px rgba( 0,0,0,1 ),
                  0 0 10px rgba( 0,0,0,.5 );
-    /* color: rgba( 0,0,0,0.5 ); */
+    color: rgba( 0,0,0,0.5 ); */
+}
+
+.footer-links a .la-file
+{
+    position: relative;
+}
+
+.footer-links a .la-file::after
+{
+    content: 'CV';
+    font-family: Montserrat;
+    font-size: .3em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -.2em;
+    margin-left: -.7em;
 }
 
 .copyrights

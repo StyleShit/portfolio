@@ -39,11 +39,18 @@ export default function Footer() {
                 <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/evyatar-daud-404738152/">
                     <i className="lab la-linkedin-in"></i>
                 </a>
+
+                <br />
+                <br />
                 
                 <a target="_blank" rel="noopener noreferrer" href="mailto:evyatar.daud@gmail.com">
                     <i className="las la-envelope"></i>
                      {/* Email */}
                     {/* <!-- Evyatar.Daud@gmail.com --> */}
+                </a>
+
+                <a target="_blank" rel="noopener noreferrer" href="download/CV.pdf">
+                    <i className="las la-file"></i>
                 </a>
                 
                 <a target="_blank" rel="noopener noreferrer" href="tel:0584958905">
