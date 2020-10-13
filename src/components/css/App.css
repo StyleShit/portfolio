@@ -311,22 +311,33 @@ html.modal-open, html.modal-open body
     transform: rotate( 45deg );
 }
 
-/* .mockup-description::before
+.mockup-description::before
 {
-    content: '';
+    content: '↑ Click Me ↑';
+    display: none;
+    color: transparent;
     position: absolute;
-    display: block;
-    height: .5em;
-    width: .5em;
-    border-top: 1px solid var( --primary-color );
-    border-right: 1px solid var( --primary-color );
-    left: 50%;
-    margin-left: -.25em;
-    bottom: 100%;
-    margin-bottom: .4em;
+    margin-top: -4em;
+    font-weight: bold;
+    left: 100%;
+    margin-left: -2.5em;
+    transform: rotate( -38deg );
     transform-origin: center;
-    transform: rotate( -45deg );
-} */
+    white-space: nowrap;
+    background-clip: text;
+    background-size: 200% 100%;
+    background-image: linear-gradient( to right, var( --primary-lighter-color ), 
+                        var( --primary-color ) , 
+                        var( --primary-lighter-color ) );
+    animation: 1s gradient infinite ease;
+}
+
+.mockup-right .mockup-description::before
+{
+    margin-left: -3em;
+    margin-top: -5em;
+    transform: rotate( -48deg );
+}
 
 .mockup-description i
 {
@@ -1003,6 +1014,16 @@ html.modal-open, html.modal-open body
         top: -13em;
     }
 
+    .mockup-description
+    {
+        margin-top: 1em;
+    }
+
+    .mockup-description::before
+    {
+        display: block;
+    }
+
     .modal-content::before
     {
         clip-path: polygon( 45% 0, 0 0, 0 50% );
@@ -1211,7 +1232,7 @@ html.modal-open, html.modal-open body
 
 @keyframes click-drop
 {
-    0% { transform: scale( 1 ); opacity: 1; }
+    0% { transform: scale( 1 ); opacity: .5; }
     50%, 100% { transform: scale( 4 ); opacity: 0; }
 }
 
@@ -1220,4 +1241,26 @@ html.modal-open, html.modal-open body
     0%, 10% { left: 30%; }
     50%, 60%{ left: 70%; }
     100%{ left: 30%; }
+}
+
+@keyframes grow-and-disappear
+{
+    0% 
+    { 
+        transform: rotate( 0deg ) scale( 1 );
+        opacity: 1; 
+    }
+
+    50%, 100% 
+    { 
+        transform: rotate( 30deg ) scale( 3 );
+        opacity: 0; 
+    }
+}
+
+@keyframes gradient
+{
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
 }
