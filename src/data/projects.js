@@ -52,6 +52,7 @@ const projects = [
         image: 'img/thumbnails/material-login.webp',
         fallbackImage: 'img/thumbnails/material-login.jpg',
         link: 'projects/material-login',
+        codepen: 'https://codepen.io/EvyatarDa/full/yaoGOB',
         description: `A concept design for a login page, based on the material design concepts.<br />
             Inspired from this Dribbble shot by Anton Aheichanka: <br /><br />
             <a target="_blank" href="https://dribbble.com/shots/1945593-Login-Home-Screen/">https://dribbble.com/shots/1945593-Login-Home-Screen/</a>
@@ -63,7 +64,8 @@ const projects = [
         image: 'img/thumbnails/codepen-clone.png',
         link: 'projects/codepen-clone',
         github: 'https://github.com/StyleShit/Codepen-Clone',
-        description: `A small clone of Codepen's basic functionality, using React and <a target="_blank" href="https://codemirror.net/">CodeMirror</a>.
+        description: `A small clone of Codepen's basic functionality, using React and <a target="_blank" href="https://codemirror.net/">CodeMirror</a>.<br />
+            The editor features live preview, syntax highlight and option to minimize each editor when you don't need it.
             <br /><br />`
     },
 
@@ -136,6 +138,7 @@ const projects = [
         image: 'img/thumbnails/robot.webp',
         fallbackImage: 'img/thumbnails/robot.jpg',
         link: 'projects/robot',
+        codepen: 'https://codepen.io/EvyatarDa/full/vYGozEB',
         description: `A robot created using a single div and gradient tricks.<br />
             Inspired from this Codepen by Jon Kantner: <br /><br />
             <a target="_blank" href="https://codepen.io/jkantner/full/XMLVXa/">https://codepen.io/jkantner/full/XMLVXa/</a>
@@ -147,6 +150,7 @@ const projects = [
         image: 'img/thumbnails/animated-login.webp',
         fallbackImage: 'img/thumbnails/animated-login.jpg',
         link: 'projects/animated-login',
+        codepen: 'https://codepen.io/EvyatarDa/full/rwRmVP',
         description: `A concept design for a login page with an animated background.<br />
             Inspired from this Dribbble shot by Nest: <br /><br />
             <a target="_blank" href="https://dribbble.com/shots/1187493-Log-in-GIF-animation">https://dribbble.com/shots/1187493-Log-in-GIF-animation</a>
