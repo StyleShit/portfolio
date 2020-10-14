@@ -810,7 +810,7 @@ html.modal-open, html.modal-open body
     align-items: center;
 }
 
-.modal-image > a
+.modal-image > a, .modal-image picture
 {
     height: 100%;
     width: 100%;
@@ -818,7 +818,6 @@ html.modal-open, html.modal-open body
     align-items: center;
     justify-content: center;
 }
-
 
 .modal-image img
 {
