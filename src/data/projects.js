@@ -28,15 +28,17 @@ const projects = [
     },
 
     {
-        title: 'Weather App Concept',
-        image: 'img/thumbnails/weather-app.jpg',
-        link: 'projects/weather-app',
-        description: `A concept design for Weather App.<br />
-            Inspired from this Dribbble shot by Tiberiu Neamu: <br /><br />
-            <a target="_blank" href="https://dribbble.com/shots/1081917-WhereTO-App/">https://dribbble.com/shots/1081917-WhereTO-App/</a>
+        title: 'Material Design Login',
+        image: 'img/thumbnails/material-login.webp',
+        fallbackImage: 'img/thumbnails/material-login.jpg',
+        link: 'projects/material-login',
+        codepen: 'https://codepen.io/EvyatarDa/pen/yaoGOB',
+        description: `A concept design for a login page, based on the material design concepts.<br />
+            Inspired from this Dribbble shot by Anton Aheichanka: <br /><br />
+            <a target="_blank" href="https://dribbble.com/shots/1945593-Login-Home-Screen/">https://dribbble.com/shots/1945593-Login-Home-Screen/</a>
             <br /><br />`
     },
-
+    
     {
         title: 'The Joker Concept Design',
         image: 'img/thumbnails/joker.jpg',
@@ -48,24 +50,22 @@ const projects = [
     },
 
     {
-        title: 'Material Design Login',
-        image: 'img/thumbnails/material-login.webp',
-        fallbackImage: 'img/thumbnails/material-login.jpg',
-        link: 'projects/material-login',
-        codepen: 'https://codepen.io/EvyatarDa/pen/yaoGOB',
-        description: `A concept design for a login page, based on the material design concepts.<br />
-            Inspired from this Dribbble shot by Anton Aheichanka: <br /><br />
-            <a target="_blank" href="https://dribbble.com/shots/1945593-Login-Home-Screen/">https://dribbble.com/shots/1945593-Login-Home-Screen/</a>
-            <br /><br />`
-    },
-
-    {
         title: 'Codepen Clone',
         image: 'img/thumbnails/codepen-clone.png',
         link: 'projects/codepen-clone',
         github: 'https://github.com/StyleShit/Codepen-Clone',
         description: `A small clone of Codepen's basic functionality, using React and <a target="_blank" href="https://codemirror.net/">CodeMirror</a>.<br />
             The editor features live preview, syntax highlight and option to minimize each editor when you don't need it.
+            <br /><br />`
+    },
+
+    {
+        title: 'Weather App Concept',
+        image: 'img/thumbnails/weather-app.jpg',
+        link: 'projects/weather-app',
+        description: `A concept design for Weather App.<br />
+            Inspired from this Dribbble shot by Tiberiu Neamu: <br /><br />
+            <a target="_blank" href="https://dribbble.com/shots/1081917-WhereTO-App/">https://dribbble.com/shots/1081917-WhereTO-App/</a>
             <br /><br />`
     },
 
