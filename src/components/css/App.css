@@ -477,7 +477,7 @@ html.modal-open, html.modal-open body
 
 .thumbnail:hover .thumbnail-img img
 {
-    transform: scale( 1.7 ) rotate( -15deg );
+    transform: scale( 1.2 );
 }
 
 .thumbnail:hover .thumbnail-img::before, .thumbnail:hover .thumbnail-img::after
