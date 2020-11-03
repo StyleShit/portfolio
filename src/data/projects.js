@@ -112,16 +112,7 @@ const projects = [
             and still gains a lot of views & likes until this day.
             <br /><br />`
     },
-
-    {
-        title: 'ShutterStock Downloader',
-        image: 'img/thumbnails/shutterstock-downloader.png',
-        description: `A custom Wordpress plugin for <a target="_blank" href="http://nationwideautotransportation.com/">Nationwide Auto Transportation</a>.<br>
-        It downloads images from <a target="_blank" href="http://shutterstock.com/">ShutterStock</a>, based on keywords, using their provided API.
-        You can set count, keywords and some other parameters, as well as API credentials, and the plugin will download the images for you.<br>
-        Simple as clicking a button.`
-    },
-
+    
     {
         title: 'Client for Reddit',
         image: 'img/thumbnails/reddit-client.png',
@@ -134,6 +125,15 @@ const projects = [
     },
 
     {
+        title: 'ShutterStock Downloader',
+        image: 'img/thumbnails/shutterstock-downloader.png',
+        description: `A custom Wordpress plugin for <a target="_blank" href="http://nationwideautotransportation.com/">Nationwide Auto Transportation</a>.<br>
+        It downloads images from <a target="_blank" href="http://shutterstock.com/">ShutterStock</a>, based on keywords, using their provided API.
+        You can set count, keywords and some other parameters, as well as API credentials, and the plugin will download the images for you.<br>
+        Simple as clicking a button.`
+    },
+
+    {
         title: 'DailyUI Login',
         image: 'img/thumbnails/flat-login.webp',
         fallbackImage: 'img/thumbnails/flat-login.png',
@@ -141,6 +141,18 @@ const projects = [
         description: `A login form designed for the DailyUI 100 Days Challenge.<br />
             Inspired from this Dribbble shot by Paul Flavius Nechita: <br /><br />
             <a target="_blank" href="https://dribbble.com/shots/2125879-Day-001-Login-Form/">https://dribbble.com/shots/2125879-Day-001-Login-Form/</a>
+            <br /><br />`
+    },
+
+    {
+        title: 'Quantum Hackbar',
+        image: 'img/thumbnails/hackbar.png',
+        link: 'https://addons.mozilla.org/en-US/firefox/addon/quantum-hackbar/',
+        github: 'https://github.com/StyleShit/Quantum-Hackbar',
+        description: `A Web-Extension for web pen-testers, aims to replace the old well-known 
+            <a target="_blank" href="https://web.archive.org/web/20170610195655/https://addons.mozilla.org/en-US/firefox/addon/hackbar/">hackbar</a> 
+            due to the deprecation of XUL on Firefox Quantum.<br />
+            The extension sits in the browser DevTools and features SQLi & XSS payloads, as well as encryption & encoding functions, and custom POST data & referer.
             <br /><br />`
     },
 
