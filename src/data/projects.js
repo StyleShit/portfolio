@@ -60,6 +60,17 @@ const projects = [
     },
 
     {
+        title: 'React Live Chat',
+        image: 'img/thumbnails/react-chat.png',
+        link: 'https://styleshit-react-chat.herokuapp.com/',
+        github: 'https://github.com/StyleShit/react-live-chat',
+        description: `A live chat created using React / Socket.io for the client, and Node.js / Express / Socket.io for the server.<br />
+            The chat features chat rooms, live messages (duh...), live room participants list, chat bot to welcome new users and typing indicator when others are typing.
+            The project is automatically deployed to <a target="_blank" href="https://heroku.com/">Heroku</a> using Github.
+            <br /><br />`
+    },
+
+    {
         title: 'Weather App Concept',
         image: 'img/thumbnails/weather-app.jpg',
         link: 'projects/weather-app',
