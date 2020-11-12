@@ -71,16 +71,6 @@ const projects = [
     },
 
     {
-        title: 'Weather App Concept',
-        image: 'img/thumbnails/weather-app.jpg',
-        link: 'projects/weather-app',
-        description: `A concept design for Weather App.<br />
-            Inspired from this Dribbble shot by Tiberiu Neamu: <br /><br />
-            <a target="_blank" href="https://dribbble.com/shots/1081917-WhereTO-App/">https://dribbble.com/shots/1081917-WhereTO-App/</a>
-            <br /><br />`
-    },
-
-    {
         title: 'DailyUI Signup',
         image: 'img/thumbnails/flat-signup.jpg',
         link: 'projects/flat-signup',
@@ -125,12 +115,14 @@ const projects = [
     },
 
     {
-        title: 'ShutterStock Downloader',
-        image: 'img/thumbnails/shutterstock-downloader.png',
-        description: `A custom Wordpress plugin for <a target="_blank" href="http://nationwideautotransportation.com/">Nationwide Auto Transportation</a>.<br>
-        It downloads images from <a target="_blank" href="http://shutterstock.com/">ShutterStock</a>, based on keywords, using their provided API.
-        You can set count, keywords and some other parameters, as well as API credentials, and the plugin will download the images for you.<br>
-        Simple as clicking a button.`
+        title: 'React Pokédex',
+        image: 'img/thumbnails/react-pokedex.jpg',
+        link: 'https://styleshit-pokedex.netlify.app/',
+        github: 'https://github.com/StyleShit/React-Pokedex',
+        description: `A Pokédex created using React & <a href="https://pokeapi.co/docs/v2">PokéAPI</a>.<br />
+            Inspired from this Dribbble shot by Saepul Nahwan: <br /><br />
+            <a target="_blank" href="https://dribbble.com/shots/6540871-Pokedex-App">https://dribbble.com/shots/6540871-Pokedex-App</a>
+            <br /><br />`
     },
 
     {
@@ -141,6 +133,16 @@ const projects = [
         description: `A login form designed for the DailyUI 100 Days Challenge.<br />
             Inspired from this Dribbble shot by Paul Flavius Nechita: <br /><br />
             <a target="_blank" href="https://dribbble.com/shots/2125879-Day-001-Login-Form/">https://dribbble.com/shots/2125879-Day-001-Login-Form/</a>
+            <br /><br />`
+    },
+
+    {
+        title: 'Weather App Concept',
+        image: 'img/thumbnails/weather-app.jpg',
+        link: 'projects/weather-app',
+        description: `A concept design for Weather App.<br />
+            Inspired from this Dribbble shot by Tiberiu Neamu: <br /><br />
+            <a target="_blank" href="https://dribbble.com/shots/1081917-WhereTO-App/">https://dribbble.com/shots/1081917-WhereTO-App/</a>
             <br /><br />`
     },
 
@@ -178,7 +180,16 @@ const projects = [
             Inspired from this Dribbble shot by Nest: <br /><br />
             <a target="_blank" href="https://dribbble.com/shots/1187493-Log-in-GIF-animation">https://dribbble.com/shots/1187493-Log-in-GIF-animation</a>
             <br /><br />`
-    }
+    },
+
+    {
+        title: 'ShutterStock Downloader',
+        image: 'img/thumbnails/shutterstock-downloader.png',
+        description: `A custom Wordpress plugin for <a target="_blank" href="http://nationwideautotransportation.com/">Nationwide Auto Transportation</a>.<br>
+        It downloads images from <a target="_blank" href="http://shutterstock.com/">ShutterStock</a>, based on keywords, using their provided API.
+        You can set count, keywords and some other parameters, as well as API credentials, and the plugin will download the images for you.<br>
+        Simple as clicking a button.`
+    },
 ];
 
 export default projects;
