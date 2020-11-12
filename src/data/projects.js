@@ -119,7 +119,7 @@ const projects = [
         image: 'img/thumbnails/react-pokedex.jpg',
         link: 'https://styleshit-pokedex.netlify.app/',
         github: 'https://github.com/StyleShit/React-Pokedex',
-        description: `A Pokédex created using React & <a href="https://pokeapi.co/docs/v2">PokéAPI</a>.<br />
+        description: `A Pokédex created using React & <a target="_blank" href="https://pokeapi.co/docs/v2">PokéAPI</a>.<br />
             Inspired from this Dribbble shot by Saepul Nahwan: <br /><br />
             <a target="_blank" href="https://dribbble.com/shots/6540871-Pokedex-App">https://dribbble.com/shots/6540871-Pokedex-App</a>
             <br /><br />`
