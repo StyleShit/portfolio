@@ -1063,10 +1063,10 @@ html.modal-open, html.modal-open body
     
     .modal-close-btn
     {
-        height: 3.5em;
-        width: 3.5em;
-        top: 1.5em;
-        right: 1.5em;
+        height: 4.5em;
+        width: 4.5em;
+        top: 1.7em;
+        right: 1.7em;
     }
 }
 
