@@ -71,24 +71,34 @@ const projects = [
     },
 
     {
+        title: 'React Pokédex',
+        image: 'img/thumbnails/react-pokedex.jpg',
+        link: 'https://styleshit-pokedex.netlify.app/',
+        github: 'https://github.com/StyleShit/React-Pokedex',
+        description: `A Pokédex created using React & <a target="_blank" href="https://pokeapi.co/docs/v2">PokéAPI</a>.<br />
+            Inspired from this Dribbble shot by Saepul Nahwan: <br /><br />
+            <a target="_blank" href="https://dribbble.com/shots/6540871-Pokedex-App">https://dribbble.com/shots/6540871-Pokedex-App</a>
+            <br /><br />`
+    },
+
+    {
+        title: 'Client for Reddit',
+        image: 'img/thumbnails/reddit-client.png',
+        link: 'projects/reddit-client',
+        github: 'https://github.com/StyleShit/Basic-Client-For-Reddit',
+        description: `A small basic client for Reddit with a new design, created using React.<br />
+            Inspired from this Dribbble shot by Dmitriy Kharaberyush: <br /><br />
+            <a target="_blank" href="https://dribbble.com/shots/3257279-Reddit-Trainy">https://dribbble.com/shots/3257279-Reddit-Trainy</a>
+            <br /><br />`
+    },
+
+    {
         title: 'DailyUI Signup',
         image: 'img/thumbnails/flat-signup.jpg',
         link: 'projects/flat-signup',
         description: `A signup form designed for the DailyUI 100 Days Challenge.<br />
             Inspired from this Dribbble shot by Paul Aimé : <br /><br />
             <a target="_blank" href="https://dribbble.com/shots/2468662-Daily-UI-001-Sign-Up-Form/">https://dribbble.com/shots/2468662-Daily-UI-001-Sign-Up-Form/</a>
-            <br /><br />`
-    },
-    
-    {
-        title: 'React Weather',
-        image: 'img/thumbnails/react-weather-app.webp',
-        fallbackImage: 'img/thumbnails/react-weather-app.jpg',
-        link: 'projects/react-weather',
-        github: 'https://github.com/StyleShit/Weather-Around-The-World',
-        description: `A small React project that uses <a target="__blank" href="https://openweathermap.org/api">OpenWeather's API</a> to show live weather in places around the world.<br />
-            Inspired from this Dribbble shot by kenzch: <br /><br />
-            <a target="_blank" href="https://dribbble.com/shots/7112686-Weather-kit">https://dribbble.com/shots/7112686-Weather-kit</a>
             <br /><br />`
     },
 
@@ -102,26 +112,16 @@ const projects = [
             and still gains a lot of views & likes until this day.
             <br /><br />`
     },
-    
-    {
-        title: 'Client for Reddit',
-        image: 'img/thumbnails/reddit-client.png',
-        link: 'projects/reddit-client',
-        github: 'https://github.com/StyleShit/Basic-Client-For-Reddit',
-        description: `A small basic client for Reddit with a new design, created using React.<br />
-            Inspired from this Dribbble shot by Dmitriy Kharaberyush: <br /><br />
-            <a target="_blank" href="https://dribbble.com/shots/3257279-Reddit-Trainy">https://dribbble.com/shots/3257279-Reddit-Trainy</a>
-            <br /><br />`
-    },
 
     {
-        title: 'React Pokédex',
-        image: 'img/thumbnails/react-pokedex.jpg',
-        link: 'https://styleshit-pokedex.netlify.app/',
-        github: 'https://github.com/StyleShit/React-Pokedex',
-        description: `A Pokédex created using React & <a target="_blank" href="https://pokeapi.co/docs/v2">PokéAPI</a>.<br />
-            Inspired from this Dribbble shot by Saepul Nahwan: <br /><br />
-            <a target="_blank" href="https://dribbble.com/shots/6540871-Pokedex-App">https://dribbble.com/shots/6540871-Pokedex-App</a>
+        title: 'React Weather',
+        image: 'img/thumbnails/react-weather-app.webp',
+        fallbackImage: 'img/thumbnails/react-weather-app.jpg',
+        link: 'projects/react-weather',
+        github: 'https://github.com/StyleShit/Weather-Around-The-World',
+        description: `A small React project that uses <a target="__blank" href="https://openweathermap.org/api">OpenWeather's API</a> to show live weather in places around the world.<br />
+            Inspired from this Dribbble shot by kenzch: <br /><br />
+            <a target="_blank" href="https://dribbble.com/shots/7112686-Weather-kit">https://dribbble.com/shots/7112686-Weather-kit</a>
             <br /><br />`
     },
 
