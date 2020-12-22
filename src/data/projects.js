@@ -66,8 +66,9 @@ const projects = [
         github: 'https://github.com/StyleShit/react-live-chat',
         description: `A live chat created using React / Socket.io for the client, and Node.js / Express / Socket.io for the server.<br />
             The chat features chat rooms, live messages (duh...), live room participants list, chat bot to welcome new users and typing indicator when others are typing.
-            The project is automatically deployed to <a target="_blank" href="https://heroku.com/">Heroku</a> using Github.
-            <br /><br />`
+            The project is automatically deployed to <a target="_blank" href="https://heroku.com/">Heroku</a> using GitHub.<br />
+            (It might have a delay on the initial loading because it runs on a Heroku dyno)
+            <br />`
     },
 
     {
