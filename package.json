@@ -15,7 +15,7 @@
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"predeploy": "npm run build",
+		"predeploy": "npm run build && echo evyatar.cf > build/CNAME",
 		"deploy": "gh-pages -d build -r https://github.com/StyleShit/StyleShit.github.io -b main"
 	},
 	"eslintConfig": {
