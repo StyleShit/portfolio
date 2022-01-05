@@ -69,7 +69,7 @@ function App()
 	return (
 		<>
 		<Modal isModalOpen={ isModalOpen } dispatch={ dispatch } project={ modalProject } />
-		<Hero title="Hello" subtitle={ `My Name is Evyatar Daud<br/>And I'm a Web-Developer` } />
+		<Hero title="Hello" subtitle={ `My Name is Evyatar Daud<br/>And I'm a Full-Stack Developer` } />
 		<Projects dispatch={ dispatch } projects={ projectsData } limit={ showcaseLimit } />
 		<Footer />
 		</>
