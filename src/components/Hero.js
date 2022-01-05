@@ -15,7 +15,7 @@ export default function Hero({ title, subtitle })
                     { title },
                 </h1>
                 
-                <div className="hero-description slide-in-from-left" dangerouslySetInnerHTML={{ __html: subtitle }}></div>
+                <div className="hero-description slide-in-from-left" dangerouslySetInnerHTML={ { __html: subtitle } }></div>
 
                 <div className="hero-buttons-container">
                     <a href="#my-projects" className="hero-btn hero-btn-primary scroll-to slide-in-from-bottom">My Projects</a>
