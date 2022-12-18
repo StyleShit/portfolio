@@ -60,11 +60,11 @@ function ModalContent({ project }: { project: Project }) {
             </div>
           </>
         </Dialog.Description>
-
-        <Dialog.Close asChild>
-          <span className="modal-close-btn"></span>
-        </Dialog.Close>
       </div>
+
+      <Dialog.Close asChild>
+        <span className="modal-close-btn"></span>
+      </Dialog.Close>
     </>
   );
 }
