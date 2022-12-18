@@ -32,7 +32,7 @@ export const mockups: Mockup[] = [
       <>
         A concept web design of some futuristic AI company.
         <br />
-        Inspired from this Dribbble shot by Howard Chen: <br />
+        Inspired by this Dribbble shot by Howard Chen: <br />
         <br />
         <a
           target="_blank"
@@ -56,20 +56,20 @@ export const mockups: Mockup[] = [
       <>
         An awesome and special Crypto Coins analyzing tool for internal use.
         <br />
-        It grabs a lot of data about each coin which exists in{" "}
+        It grabs a bunch of data about each coin that exists in{" "}
         <a target="_blank" href="https://coinmarketcap.com/" rel="noreferrer">
           Coin Market Cap
         </a>
-        , from various APIs, including price history & other details, that
+        , from various APIs, including price history and other details, that
         combined toghether can tell you whether to invest in that coin or not.
         <br />
         The success rates are pretty good, and we&apos;ve already gain a high
         profit. <br />
-        As can be seen in the screenshot, there is a really nice and friendly
-        graph for each coin, which helps you deciding which coin is the best
-        investment for you. <br />
+        As can be seen in the screenshot, there is a nice and friendly graph for
+        each coin, that helps you deciding which coin is the best investment for
+        you. <br />
         In addition, this tool integrates with Bitfinex & Cryptopia APIs, and
-        runs Node.js exchange-bots which can sell or buy coins for you in the
+        runs Node.js exchange-bots that can sell or buy coins for you in the
         highest available profit.
       </>
     ),
@@ -96,7 +96,7 @@ export const projects: Project[] = [
         A concept design for a login page, based on the material design
         concepts.
         <br />
-        Inspired from this Dribbble shot by Anton Aheichanka: <br />
+        Inspired by this Dribbble shot by Anton Aheichanka: <br />
         <br />
         <a
           target="_blank"
@@ -124,7 +124,7 @@ export const projects: Project[] = [
       <>
         A concept design for The Joker Movie.
         <br />
-        Inspired from this Dribbble shot by Kalenskiy Dmitriy: <br />
+        Inspired by this Dribbble shot by Kalenskiy Dmitriy: <br />
         <br />
         <a
           target="_blank"
@@ -159,7 +159,7 @@ export const projects: Project[] = [
           CodeMirror
         </a>
         .<br />
-        The editor features live preview, syntax highlight and option to
+        The editor features live preview, syntax highlight, and option to
         minimize each editor when you don&apos;t need it.
         <br />
         <br />
@@ -180,19 +180,18 @@ export const projects: Project[] = [
         href: "https://github.com/StyleShit/react-live-chat",
       },
     ],
-
     description: () => (
       <>
         A live chat created using React / Socket.io for the client, and Node.js
         / Express / Socket.io for the server.
         <br />
         The chat features chat rooms, live messages (duh...), live room
-        participants list, chat bot to welcome new users and typing indicator
+        participants list, chat bot to welcome new users, and a typing indicator
         when others are typing. The project is automatically deployed to{" "}
         <a target="_blank" href="https://render.com/" rel="noreferrer">
           Render.com
         </a>{" "}
-        using GitHub.
+        using a GitHub workflow.
         <br />
         (It might have a delay on the initial loading because it runs on a
         Render dyno)
@@ -221,7 +220,7 @@ export const projects: Project[] = [
           PokéAPI
         </a>
         .<br />
-        Inspired from this Dribbble shot by Saepul Nahwan: <br />
+        Inspired by this Dribbble shot by Saepul Nahwan: <br />
         <br />
         <a
           target="_blank"
@@ -251,9 +250,9 @@ export const projects: Project[] = [
     ],
     description: () => (
       <>
-        A small basic client for Reddit with a new design, created using React.
+        A small basic client for Reddit, with a new design, created using React.
         <br />
-        Inspired from this Dribbble shot by Dmitriy Kharaberyush: <br />
+        Inspired by this Dribbble shot by Dmitriy Kharaberyush: <br />
         <br />
         <a
           target="_blank"
@@ -281,7 +280,7 @@ export const projects: Project[] = [
       <>
         A signup form designed for the DailyUI 100 Days Challenge.
         <br />
-        Inspired from this Dribbble shot by Paul Aimé : <br />
+        Inspired by this Dribbble shot by Paul Aimé: <br />
         <br />
         <a
           target="_blank"
@@ -350,7 +349,7 @@ export const projects: Project[] = [
         </a>{" "}
         to show live weather in places around the world.
         <br />
-        Inspired from this Dribbble shot by kenzch: <br />
+        Inspired by this Dribbble shot by kenzch: <br />
         <br />
         <a
           target="_blank"
@@ -379,7 +378,7 @@ export const projects: Project[] = [
       <>
         A login form designed for the DailyUI 100 Days Challenge.
         <br />
-        Inspired from this Dribbble shot by Paul Flavius Nechita: <br />
+        Inspired by this Dribbble shot by Paul Flavius Nechita: <br />
         <br />
         <a
           target="_blank"
@@ -407,7 +406,7 @@ export const projects: Project[] = [
       <>
         A concept design for Weather App.
         <br />
-        Inspired from this Dribbble shot by Tiberiu Neamu: <br />
+        Inspired by this Dribbble shot by Tiberiu Neamu: <br />
         <br />
         <a
           target="_blank"
@@ -437,14 +436,14 @@ export const projects: Project[] = [
     ],
     description: () => (
       <>
-        A Web-Extension for web pen-testers, aims to replace the old well-known
+        A Web-Extension for web pen-testers, aims to replace the old well-known{" "}
         <a
           target="_blank"
           href="https://web.archive.org/web/20170610195655/https://addons.mozilla.org/en-US/firefox/addon/hackbar/"
           rel="noreferrer"
         >
           hackbar
-        </a>
+        </a>{" "}
         due to the deprecation of XUL on Firefox Quantum.
         <br />
         The extension sits in the browser DevTools and features SQLi & XSS
@@ -474,7 +473,7 @@ export const projects: Project[] = [
       <>
         A robot created using a single div and gradient tricks.
         <br />
-        Inspired from this Codepen by Jon Kantner: <br />
+        Inspired by this Codepen by Jon Kantner: <br />
         <br />
         <a
           target="_blank"
@@ -507,7 +506,7 @@ export const projects: Project[] = [
       <>
         A concept design for a login page with an animated background.
         <br />
-        Inspired from this Dribbble shot by Nest: <br />
+        Inspired by this Dribbble shot by Nest: <br />
         <br />
         <a
           target="_blank"
