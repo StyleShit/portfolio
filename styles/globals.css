@@ -1282,3 +1282,31 @@ body
     from { opacity: 1; }
     to { opacity: 0; }
 }
+
+/**
+    # Emojis
+*/
+.em
+{
+    height: 1.5em;
+    width: 1.5em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: middle;
+}
+.em-heartbeat
+{
+    background-image: url("https://twemoji.maxcdn.com/2/72x72/1f493.png");
+}
+
+.em-last_quarter_moon
+{
+    background-image: url("https://twemoji.maxcdn.com/2/72x72/1f317.png");
+}
+
+.em-sweat_smile
+{
+    background-image: url("https://twemoji.maxcdn.com/2/72x72/1f605.png");
+}
