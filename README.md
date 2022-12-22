@@ -10,22 +10,23 @@ My portfolio website, created using React, Next.js, Adobe XD and [Mokup Frames](
 
 ## Installation:
 
-Clone this git, then `npm i && npm run dev`
+Clone this repo, then `npm i && npm run dev`
 
 
 ## Available commands:
 
 ### `npm run dev`
 
-Runs the app in the development mode.<br />
+Runs the app in the development mode.
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
 ### `npm run build`
 
-Builds the app for production to the `.next` & `out` folders.<br />
+Builds the app for production to the `.next` & `out` directories.
 
 
 ### `npm run deploy`
 
-Builds the app and publishes to github pages.<br />
+Builds the app and publishes to GitHub Pages.
