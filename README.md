@@ -1,6 +1,6 @@
 # My Portfolio
 
-My portfolio webaite, created using React, Next.js, Adobe XD and [Mokup Frames](https://www.mokupframes.com/)
+My portfolio website, created using React, Next.js, Adobe XD and [Mokup Frames](https://www.mokupframes.com/)
 
 > Note: There is no reason whatsoever to use React and/or Next.js for this project, I just wanted to try out Next.js' SSG (Static Site Generation) feature on a GitHub-Pages deployment 
 > 
